@@ -10,7 +10,31 @@ export default function Home () {
         </a>
       </div>
 
-      <div className="projects">
+      <div className="projects_test">
+
+        <div className="project_card_test moon_protocol">
+          <div>
+            <h4>Moon protocol</h4>
+            <p> A social media that allows users to create, search and buy art. </p>
+          </div>
+        </div>
+
+        <div className="project_card_test moon_protocol">
+          <div>
+            <h4>Moon protocol</h4>
+            <p> A social media that allows users to create, search and buy art. </p>
+          </div>
+        </div>
+
+        <div className="project_card_test moon_protocol">
+          <div>
+            <h4>Moon protocol</h4>
+            <p> A social media that allows users to create, search and buy art. </p>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="projects">
 
         <div className="project">
           <div className="project_info">
@@ -29,7 +53,7 @@ export default function Home () {
 
         <div className="project">
           <div className="project_info">
-            <h2>Project 1</h2>
+            <h2>Weather app</h2>
             <h4>A monetizatio platform that helps publishers</h4>
             <div className="project_tags">
               <div className="tag">HTML</div>
@@ -44,7 +68,7 @@ export default function Home () {
 
         <div className="project">
           <div className="project_info">
-            <h2>Project 1</h2>
+            <h2>Admin panel</h2>
             <h4>A monetizatio platform that helps publishers</h4>
             <div className="project_tags">
               <div className="tag">HTML</div>
@@ -57,7 +81,7 @@ export default function Home () {
           <img src="/moon_protocol.svg" />
         </div>
 
-      </div>
+      </div> */}
     </div>
   )
 }

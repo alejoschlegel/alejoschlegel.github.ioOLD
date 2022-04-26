@@ -4,24 +4,23 @@ export default function Nav () {
         <div className="nav">
             <div className="nav_top">
                 <li className="menu">
-                    <a href="#"><span class="material-icons-sharp">menu</span></a>
+                    <a><span class="material-icons-sharp">menu</span></a>
                     <ul className="vertical_menu">
-                        <li><a href="#"><span class="material-icons-sharp">home</span></a></li>
-                        <li><a href="#"><span class="material-icons-sharp">mail</span></a></li>
-                        <li><a href="#"><span class="material-icons-sharp">person</span></a></li>
-                        <li><a href="#"><span class="material-icons-sharp">description</span></a></li>
+                        <li><a href="#"><span class="material-icons-sharp" title="Home">home</span></a></li>
+                        <li><a href="#"><span class="material-icons-sharp" title="About me">person</span></a></li>
+                        <li><a href="/Alejo_Schlegel_resume.pdf" target="_blank" title="Resume"><span class="material-icons-sharp">description</span></a></li>
                     </ul>
                 </li>
-                <a href="">
+                <div>
                     <h5>Alejo Schlegel</h5>
-                    <span class="material-icons-sharp">dark_mode</span>
-                </a>
+                    <a href="#" title="Coming soon!"><span class="material-icons-sharp">dark_mode</span></a>
+                </div>
             </div>
             <div className="nav_bottom">
                 <a href="mailto:alejofschlegel@gmail.com">
                     <span class="material-icons-sharp">mail_outline</span>
                 </a>
-                <a href="">
+                <a href="#">
                     <span class="material-icons-sharp">arrow_upward</span>
                 </a>
             </div>

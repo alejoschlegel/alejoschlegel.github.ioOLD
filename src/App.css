@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Sharp");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 :root {
   --color-black-1: #0d0d0d;
   --color-black-2: #202020;
@@ -7,7 +8,7 @@
   --color-white-2: #F2F2F2;
   --color-white-3: #E5E5E5;
 
-  --color-gray: #b4b4b469;
+  --color-gray: #5f5f5f;
 
   --color-red: #EA4335;
   --color-blue: #2f71ab;
@@ -30,46 +31,41 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+
+  font-family: 'Open Sans', sans-serif;
 }
 body {
   height: 100vh;
-  font-size: 1rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2vh;
   user-select: none;
   background: var(--color-black-1);
   color: var(--color-white-1);
 }
 h1 {
-  font-size: 6rem;
-  font-weight: normal;
+  font-size: 12vh;
 }
 h2 {
-  font-size: 4rem;
-  font-weight: normal;
+  font-size: 8vh;
 }
 h3 {
-  font-size: 3rem;
-  font-weight: normal;
+  font-size: 6vh;
 }
 h4 {
-  font-size: 2rem;
-  font-weight: normal;
+  font-size: 4vh;
 }
 h5 {
-  font-size: 1.5rem;
-  font-weight: normal;
+  font-size: 3vh;
 }
 h6 {
-  font-size: 1.25rem;
-  font-weight: normal;
+  font-size: 2.5vh;
 }
 a {
   color: var(--color-white-1);
 }
 .tag {
-  margin: 0.5rem 0;
+  margin: 1vh 0;
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: 1vh 2vh;
   font-weight: bold;
   color: var(--color-white-1);
   background: #0d0d0d2d;
@@ -79,40 +75,41 @@ a {
 }
 
 
-/* NAV */
+/* ------------------------------------------------- NAV ------------------------------------------------- */
 .nav_top {
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
-  padding: 1rem;
+  padding: 1vh;
   display: flex;
   justify-content: space-between;
 }
 .nav_top span {
   color: var(--color-white-1);
-  font-size: 2rem;
+  font-size: 4vh;
   background: var(--color-black-2);
-  padding: 0.8rem;
+  padding: 2vh;
   border-radius: 50%;
 }
-.nav_top a {
+.nav_top div {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 4vh;
 }
 .nav_bottom {
   position: fixed;
+  z-index: 1;
   bottom: 0;
   width: 100%;
-  padding: 1rem;
+  padding: 1vh;
   display: flex;
   justify-content: space-between;
 }
 .nav_bottom span{
   color: var(--color-white-1);
-  font-size: 2rem;
+  font-size: 4vh;
   background: var(--color-black-2);
-  padding: 0.8rem;
+  padding: 2vh;
   border-radius: 50%;
 }
 
@@ -134,15 +131,15 @@ a {
   height: 100%;
 }
 .home_header {
-  padding: 0 7rem;
+  padding: 15vh;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .home_header a{
-  margin-top: 5rem;
-  height: 10rem;
+  margin-top: 10vh;
+  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -154,66 +151,150 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10rem;
+  gap: 20vh;
 }
 .project {
   position: relative;
-  width: 90rem;
-  height: 45rem;
+  width: 189vh;
+  height: 90vh;
   background: var(--color-violet-1);
   display: flex;
-  padding: 1rem;
+  padding: 2vh;
 }
 .project img {
   position: absolute;
-  right: 1rem;
-  bottom: 1rem;
+  right: 2vh;
+  bottom: 2vh;
   min-width: 20%;
   max-width: 60%;
 }
 .project_info{
-  padding: 0 2rem;
+  padding: 0 4vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 5rem;
+  gap: 10vh;
   height: 100%;
   width: 40%;
 }
 .project_tags{
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 2vh;
 }
 
-/* FOOTER */
+/* ------------------------------------------------- FOOTER ------------------------------------------------- */
+.stroke {
+  -webkit-text-stroke: 0.05vh var(--color-white-1);
+  color: transparent; 
+}
 .footer {
   display: flex;
-  height: 100vh;
-  padding-top: 5rem;
+  flex-direction: column;
+  align-items: center;
 }
-.footer_left {
+.footer_top {
+  width: 90%;
+  padding-bottom: 1vh;
+  border-bottom: var(--color-white-1) solid 0.2vh;
+}
+.footer_bottom {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70%;
+  width: 90%;
+  z-index: 2;
 }
-.footer_right {
-  width: 30%;
+.footer_bottom_column {
+  padding: 3vh 1vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end;
-  padding-bottom: 5rem;
-  gap: 5rem;
-}
-.footer_row {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: baseline;
-  gap: 0.5rem;
+  gap: 2vh;
 }
-.footer_row p {
-  user-select: all;
+.footer_bottom_column div:first-child{
+  width: 30%;
+}
+.footer_bottom_column div{
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.footer_bottom_column a:hover{
+  border-bottom: var(--color-white-1) solid 0.2vh;
+}
+.select {
+  user-select: text;
+}
+
+/* .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10vh 10vh 0 10vh;
+}
+.footer h1 {
+  font-weight: 800;
+}
+.footer_header {
+  width: 100%;
+  border-bottom: var(--color-white-1) solid 0.2vh;
+  padding-bottom: 5vh;
+}
+.footer_contact {
+  padding: 2vh 0;
+  width: 100%;
+  display: flex;
+  gap: 1vh;
+  align-items: center;
+}
+.footer_contact span {
+  font-size: 5vh;
+  font-weight: 600;
+}
+.footer_bottom {
+  margin-top: 2vh;
+  width: 100%;
+  padding: 1vh;
+  display: flex;
+  gap: 2vh;
+  align-items: baseline;
+}
+.footer_bottom span{
+  color: var(--color-white-1);
+  font-size: 4vh;
+  background: var(--color-black-2);
+  padding: 2vh;
+  border-radius: 50%;
+}
+
+.stroke {
+  -webkit-text-stroke: 0.05vh var(--color-white-1);
+  color: transparent; 
+} */
+
+/* ------------------------------------------------- PROJECTS_TEST ------------------------------------------------- */
+.projects_test {
+  display: flex;
+  padding: 10vh 10vh;
+  gap: 10vh;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.project_card_test {
+  background-image: url("/public/moon_protocol_test.svg");
+  height: 40vw;
+  width: 40vw;
+  padding: 2vh;
+  color: var(--color-black-1);
+}
+.project_card_test div {
+  width: 50%;
+  height: 50%;
+}
+.project_card_test h4 {
+  font-weight: 700;
+}
+.project_card_test p {
+  padding-top: 1vh;
 }
