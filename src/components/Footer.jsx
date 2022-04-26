@@ -14,17 +14,15 @@ export default function Footer () {
           </div>
           <div>
             <h4>Latest projects</h4>
-            <p><a href="">CSV editer</a></p>
-            <p><a href="">Weather App</a></p>
-            <p><a href="">Moon protocol</a></p>
-            <p><a href="">Videogames App</a></p>
+            <p><a href="https://github.com/alejoschlegel/frontend-junior-code-challenge-1">CSV editer</a></p>
+            <p><a href="https://github.com/alejoschlegel/weather-app">Weather App</a></p>
+            <p><a href="https://github.com/ezmohorcic/PF-Project-Moon">Moon protocol</a></p>
+            <p><a href="https://github.com/alejoschlegel/PI-Videogames-main">Videogames App</a></p>
           </div>
           <div>
             <h4>Follow me on</h4>
-            <p><a href="">Github</a></p>
-            <p><a href="">LinkedIn</a></p>
-            <p><a href="">Twitter</a></p>
-            <p><a href="">Instagram</a></p>
+            <p><a href="https://github.com/alejoschlegel">Github</a></p>
+            <p><a href="https://www.linkedin.com/in/alejoschlegel/">LinkedIn</a></p>
           </div>
         </div>
       </div>
