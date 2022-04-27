@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.c7d77fa1.css",
-    "main.js": "/static/js/main.9c235833.js",
+    "main.js": "/static/js/main.a4b37993.js",
     "static/js/787.9f4acdae.chunk.js": "/static/js/787.9f4acdae.chunk.js",
     "static/media/moon_protocol_test.svg": "/static/media/moon_protocol_test.afbc84b1fd09892952f5.svg",
     "index.html": "/index.html",
     "main.c7d77fa1.css.map": "/static/css/main.c7d77fa1.css.map",
-    "main.9c235833.js.map": "/static/js/main.9c235833.js.map",
+    "main.a4b37993.js.map": "/static/js/main.a4b37993.js.map",
     "787.9f4acdae.chunk.js.map": "/static/js/787.9f4acdae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7d77fa1.css",
-    "static/js/main.9c235833.js"
+    "static/js/main.a4b37993.js"
   ]
 }
