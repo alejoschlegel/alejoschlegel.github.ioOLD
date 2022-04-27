@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7d77fa1.css",
-    "main.js": "/static/js/main.a4b37993.js",
+    "main.css": "/static/css/main.a0250a6d.css",
+    "main.js": "/static/js/main.e542ff28.js",
     "static/js/787.9f4acdae.chunk.js": "/static/js/787.9f4acdae.chunk.js",
+    "static/media/admin_dashboard.png": "/static/media/admin_dashboard.1ed855a2d5c1a1dde20e.png",
+    "static/media/weather_app.png": "/static/media/weather_app.3ea2af9231d24a32f694.png",
     "static/media/moon_protocol_test.svg": "/static/media/moon_protocol_test.afbc84b1fd09892952f5.svg",
+    "static/media/moon_protocol.svg": "/static/media/moon_protocol.ec96a68cf56e54ed0501.svg",
+    "static/media/todo_app.svg": "/static/media/todo_app.162dc2d98f9cb9cb4b8b.svg",
     "index.html": "/index.html",
-    "main.c7d77fa1.css.map": "/static/css/main.c7d77fa1.css.map",
-    "main.a4b37993.js.map": "/static/js/main.a4b37993.js.map",
+    "main.a0250a6d.css.map": "/static/css/main.a0250a6d.css.map",
+    "main.e542ff28.js.map": "/static/js/main.e542ff28.js.map",
     "787.9f4acdae.chunk.js.map": "/static/js/787.9f4acdae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7d77fa1.css",
-    "static/js/main.a4b37993.js"
+    "static/css/main.a0250a6d.css",
+    "static/js/main.e542ff28.js"
   ]
 }
